@@ -71,7 +71,7 @@ span{
 	background-image: url('./asset/back0.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem;
+    height: 44rem;
     border-radius: 0 0 2% 2%;
 	color: white;
 }
@@ -152,9 +152,7 @@ span{
 	}
 }
 @media  screen and (max-width: 955px) {
-	body{
-		background: yellow
-	}
+	
 	.navbar .inline .list a{
 		margin-right: .7rem
 	}
@@ -168,9 +166,7 @@ span{
 	}
 }
 @media  screen and (max-width: 890px) {
-	body{
-		background: blue
-	}
+	
 	.container{
 		height: 163vw;
 	}
@@ -240,9 +236,7 @@ span{
 }
 
 @media  screen and (max-width: 620px) {
-	body{
-		background: brown
-	}
+	
 	.container{
 		height: 172vw;
 	}
@@ -295,6 +289,10 @@ span{
 }
 
 @media  screen and (max-width: 490px) {
+
+	.container{
+		height: 203vw;
+	}
 	.content .action .translates{
 		margin-left: 5rem
 	}
@@ -346,6 +344,9 @@ span{
 }
 
 @media  screen and (max-width: 412px) {
+	.container{
+		height: 219vw;
+	}
 	.content .action .translates{
 		margin-left: 3rem
 	}
@@ -353,6 +354,7 @@ span{
 
 @media  screen and (max-width: 336px) {
 	.container{
+		height: 273vw;
 	}
 	.menu-mobile{
 		margin-left: -7rem;
