@@ -198,7 +198,7 @@ span{
 		font-size: 1.3rem;
 	}
 	.active-menu{
-		top: 20%;
+		top: 10%;
 		transition: top 1.4s;
 	}
 
