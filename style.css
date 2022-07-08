@@ -109,8 +109,7 @@ span{
 	margin-bottom: 2rem;
 	color: white;
 	width: 29rem;
-	line-height: 1.7rem;
-		width: 100%		
+	line-height: 1.7rem;	
 }
 .conseil .left .action a{
 	padding: .5rem 1rem;
@@ -147,7 +146,7 @@ span{
 
 
 /*query*/
-@media only screen and (max-width: 1032px) {
+@media  screen and (max-width: 1032px) {
 	body{
 		background: red
 	}
@@ -155,7 +154,7 @@ span{
 		margin-right: 1rem
 	}
 }
-@media only screen and (max-width: 955px) {
+@media  screen and (max-width: 955px) {
 	body{
 		background: yellow
 	}
@@ -171,7 +170,7 @@ span{
 		color: white
 	}
 }
-@media only screen and (max-width: 890px) {
+@media  screen and (max-width: 890px) {
 	body{
 		background: blue
 	}
@@ -188,7 +187,7 @@ span{
 	.navbar-mobile{
 		position: absolute;
 		background: white;
-		width: 100vw;
+		width: 100%;
 		top: -100%;
 		transition: top 1.4s;
 		z-index: 1
@@ -237,7 +236,7 @@ span{
 
 
 }
-@media only screen and (max-width: 780px) {
+@media screen and (max-width: 780px) {
 	body{
 		background: red
 	}
@@ -246,14 +245,21 @@ span{
 	}
 }
 
-@media only screen and (max-width: 620px) {
+@media  screen and (max-width: 620px) {
 	body{
 		background: brown
 	}
 	.content{
-		
+			
 	}
 
+
+	.menu-mobile{
+		margin-left: -3rem; 
+	}
+
+	.navbar-mobile{
+	}
 
 	.i-logo{
 		width: auto;
@@ -263,20 +269,21 @@ span{
 	}
 
 	.content .action .translates{
-		margin-left: 9rem
+		margin-left: 5rem
 	}
 	.conseil .left {
 		margin-left: 0;
-		background: yellow;
 		width: 100%;
 	}
 
 	.conseil .left .title{
 		font-size: 2rem;
-		margin-bottom: 1.5rem;	
+		margin-bottom: 1.5rem;
+		width: 90%	
 	}
 	.conseil .left .text{
 		font-size: 1rem;
+		width: 100%;
 	}
 
 	.conseil .right{
@@ -287,19 +294,19 @@ span{
 	}
 }
 
-@media only screen and (max-width: 536px) {
+@media  screen and (max-width: 536px) {
 	.content .action .translates{
 		margin-left: 7rem
 	}
 }
 
-@media only screen and (max-width: 490px) {
+@media  screen and (max-width: 490px) {
 	.content .action .translates{
 		margin-left: 5rem
 	}
 }
 
-@media only screen and (max-width: 420px) {
+@media  screen and (max-width: 420px) {
 	body{
 		background: white
 	}
@@ -341,13 +348,13 @@ span{
 	}
 }
 
-@media only screen and (max-width: 412px) {
+@media  screen and (max-width: 412px) {
 	.content .action .translates{
 		margin-left: 3rem
 	}
 }
 
-@media only screen and (max-width: 336px) {
+@media  screen and (max-width: 336px) {
 	.container{
 		height: 160rem
 	}
