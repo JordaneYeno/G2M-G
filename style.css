@@ -315,7 +315,7 @@ span{
 	}
 
 	.content .action .translates{
-		margin-left: 0rem;
+		margin-left: 6rem;
 	}
 	.conseil .left {
 		margin-left: 0;
@@ -357,12 +357,10 @@ span{
 		height: 273vw;
 	}
 	.menu-mobile{
-		margin-left: -7rem;
-		background: red 
+		margin-left: -6rem;
 	}
 	.content .action .translates{
 		margin-right: -1rem
-		background: red	
 	}
 	.conseil .left .title{
 		font-size: 1.5rem;
