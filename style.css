@@ -1,0 +1,363 @@
+@import url('./font.css');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+span{
+	display: block;
+}
+.marge{
+	margin-left: 4vw;
+	margin-right: 4vw
+}
+.space-top {
+	margin-top: 5vw
+}
+.inline{
+	display: flex;
+}
+.col{
+	flex-direction: column;
+}
+.align{
+	align-items: center;
+}
+.justify-ctr{
+	justify-content: center;
+}
+.between{
+	justify-content: space-between;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+/*color*/
+.orange{
+	color: #ec882c
+}
+
+
+.cir__two {
+    border: 4px solid #E965A5;
+}
+.cir__three {
+    border: 4px solid #B4C7E7;
+}
+
+
+/*display none*/
+.menu-mobile,
+.navbar-mobile{
+	display: none;
+}
+
+
+
+/*header*/
+.container{
+	background-image: url('./asset/back0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+    border-radius: 0 0 2% 2%;
+	color: white;
+}
+
+	.i-logo{
+		width: auto;
+	}
+	.i-logo .logo{
+		width: 100%;
+	}
+
+
+.navbar .inline .list a{
+	color: white;
+	margin-right: 2vw
+}
+.content .action .btn{
+	background: transparent;
+	padding: .5vw 3vw;
+	margin-right: 3vw;
+	border: solid 1px white;
+	border-radius: .4vw;
+	color: white
+}
+.conseil .left{
+	width: 40vw;
+	margin-right: auto;
+}
+.conseil .left .title{
+	font-size: 3.5vw;
+	margin-bottom: 1.5vw;
+		width: 37vw		
+}
+.conseil .left .text{
+	margin-bottom: 2vw;
+	color: white;
+	width: 29vw;
+	line-height: 1.7vw;
+		width: 100%		
+}
+.conseil .left .action a{
+	padding: .5vw 1vw;
+	margin-right: 2vw;
+	background: #e02780;
+	color: white;
+}
+.conseil .left .action .media .circle{
+	width: 2.5vw;
+	height: 2.5vw;
+	border-radius: 50%;
+	margin-right: .7vw;
+	background: white
+}
+.conseil .right{
+	width: 30vw
+}
+.conseil .right img{
+	width: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*query*/
+@media only screen and (max-width: 1032px) {
+	body{
+		background: red
+	}
+	.navbar .inline .list a{
+		margin-right: 1vw
+	}
+}
+@media only screen and (max-width: 955px) {
+	body{
+		background: yellow
+	}
+	.navbar .inline .list a{
+		margin-right: .7vw
+	}
+	.content .action .btn{
+		background: transparent;
+		padding: .5vw 3vw;
+		margin-right: 1vw;
+		border: solid 1px white;
+		border-radius: .4vw;
+		color: white
+	}
+}
+@media only screen and (max-width: 890px) {
+	body{
+		background: blue
+	}
+	.container{
+		height: 68vw;
+	}
+	.navbar{
+		display: none;
+	}
+	.menu-mobile,.navbar-mobile{
+		display: block;
+		position: relative;
+	}
+	.navbar-mobile{
+		position: absolute;
+		background: white;
+		width: 100vw;
+		top: -100%;
+		transition: top 1.4s;
+	}
+	.navbar-mobile .list a{
+		border-bottom: solid 1px;
+		width: 100%;
+		display: block;
+		padding: 1vw;
+		text-align: center;
+		font-size: 1.3vw;
+	}
+	.active-menu{
+		top: 20%;
+		transition: top 1.4s;
+	}
+
+	.content .action .btn{
+		margin-left: -28vw;
+		margin-right: 8vw;
+	}
+	.content .action .translates{
+		margin-right: 9vw
+	}
+
+
+	.conseil{
+		flex-direction: column-reverse;
+		position: relative;
+	}
+
+	.conseil .left {
+		margin-left: 15%;
+	}
+
+
+	.conseil .right{
+		margin-left: 15%;
+		margin-top: -3.5vw;
+		margin-bottom: 3vw;
+		width: auto;
+	}
+	.conseil .right img{
+		width: 100%;
+	}
+
+
+}
+@media only screen and (max-width: 780px) {
+	body{
+		background: red
+	}
+	.content .action .btn{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	body{
+		background: brown
+	}
+	.content{
+		
+	}
+
+
+	.i-logo{
+		width: auto;
+	}
+	.i-logo .logo{
+		width: 75px;
+	}
+
+	.content .action .translates{
+		margin-left: 9vw
+	}
+	.conseil .left {
+		margin-left: 0;
+		background: yellow;
+		width: 100%;
+	}
+
+	.conseil .left .title{
+		font-size: 2vw;
+		margin-bottom: 1.5vw;	
+	}
+	.conseil .left .text{
+		font-size: 1vw;
+	}
+
+	.conseil .right{
+		margin-left: 0;
+	}
+	.content .action{
+		width: 100%
+	}
+}
+
+@media only screen and (max-width: 536px) {
+	.content .action .translates{
+		margin-left: 7vw
+	}
+}
+
+@media only screen and (max-width: 490px) {
+	.content .action .translates{
+		margin-left: 5vw
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	body{
+		background: white
+	}
+	.content{
+		margin: 0 2vw;
+		background: red
+	}
+
+
+	.i-logo{
+		width: auto;
+	}
+	.i-logo .logo{
+		width: 75px;
+	}
+
+	.content .action .translates{
+		margin-left: 9vw
+	}
+	.conseil .left {
+		margin-left: 0;
+		background: yellow;
+		width: 100%;
+	}
+
+	.conseil .left .title{
+		font-size: 2vw;
+		margin-bottom: 1.5vw;	
+	}
+	.conseil .left .text{
+		font-size: 1vw;
+	}
+
+	.conseil .right{
+		margin-left: 0;
+	}
+	.content .action{
+		width: 100%
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	.content .action .translates{
+		margin-left: 3vw
+	}
+}
+
+@media only screen and (max-width: 336px) {
+	.container{
+		height: 160vw
+	}
+	.content .action .translates{
+		margin-left: 1vw
+	}
+}
+
+
+
+
+
+
+	

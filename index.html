@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Site de G2M</title>
+</head>
+<body>
+    <header class="container">
+        <div class="content inline align between marge">
+            <div class="i-logo"><img src="./asset/back1.png" alt="logo" class="logo"></div>
+            <nav class="navbar">
+                <ul class="inline">
+                    <li class="list"><a href="#">A propos</a></li>
+                    <li class="list"><a href="#">Services</a></li>
+                    <li class="list"><a href="#">Missions</a></li>
+                    <li class="list"><a href="#">Projets</a></li>
+                    <li class="list"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="action inline align">
+            	<a href="#" class="btn">devis</a>
+                <span class="translates">Français <i class="fa fa-language"></i> <i class="fa fa-caret-down"></i></span>
+                <div class="menu-mobile">
+                    <img class="burger xy-center"  src="./asset/menu.png" width="30">
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar-mobile">
+            <ul class="">
+                <li class="list"><a href="#">A propos</a></li>
+                <li class="list"><a href="#">Services</a></li>
+                <li class="list"><a href="#">Missions</a></li>
+                <li class="list"><a href="#">Projets</a></li>
+                <li class="list"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="conseil inline marge space-top">
+            <div class="left">
+                <span class="service orange">service</span>
+                <h1 class="title">Conseil en managment et strategie</h1>
+                <p class="text">Nous sommes une entreprise de consulting en Managment dans la gestion de projts et organisation des entreprises PME et TPE et mise en place des stratégies</p>
+                <div class="action inline align">
+                    <a href="#" class="btn">contactez nous</a>
+                    <div class="media inline align">
+                        <div class="circle"><i class="fa fa-play play-icon xy-center"></i></div>
+                        <span class="play">Jouer la vidéo 3/14</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./asset/back2.png" alt="" class="banner">
+            </div>
+        </div>
+
+        <div class="reseau">
+            <div class="social">
+                <div class=""><i class="fa-brands fa-facebook-f icon"></i></div>
+                <div class=""><i class="fa-brands fa-twitter icon"></i></div>
+                <div class=""><i class="fa-brands fa-instagram icon"></i></div>
+            </div>
+        </div>
+    </header>
+    
+
+    <script type="text/javascript">
+    	var close = document.getElementById('croix'),
+    		menu  = document.querySelector('.burger'),
+    		nav   = document.querySelector('.navbar-mobile');
+    	menu.onclick = function () {
+    		nav.classList.toggle('active-menu')
+
+    		if (nav.classList.contains('active-menu')) {
+    			menu.src = "./asset/close.png";
+    		}else{
+    			menu.src = "./asset/menu.png";
+    		}
+    	}
+    </script>
+</body>
+</html>
