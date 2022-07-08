@@ -172,7 +172,7 @@ span{
 		background: blue
 	}
 	.container{
-		height: 145vw;
+		height: 163vw;
 	}
 	.navbar{
 		display: none;
@@ -243,8 +243,8 @@ span{
 	body{
 		background: brown
 	}
-	.content{
-			
+	.container{
+		height: 172vw;
 	}
 
 
@@ -353,10 +353,17 @@ span{
 
 @media  screen and (max-width: 336px) {
 	.container{
-		height: 160rem
+	}
+	.menu-mobile{
+		margin-left: -7rem;
+		background: red 
 	}
 	.content .action .translates{
 		margin-right: -1rem
+		background: red	
+	}
+	.conseil .left .title{
+		font-size: 1.5rem;
 	}
 }
 
