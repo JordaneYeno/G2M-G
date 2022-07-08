@@ -98,7 +98,6 @@ span{
 }
 .conseil .left{
 	width: 40rem;
-	margin-right: auto;
 }
 .conseil .left .title{
 	font-size: 3.5rem;
@@ -147,9 +146,7 @@ span{
 
 /*query*/
 @media  screen and (max-width: 1032px) {
-	body{
-		background: red
-	}
+	
 	.navbar .inline .list a{
 		margin-right: 1rem
 	}
@@ -175,7 +172,7 @@ span{
 		background: blue
 	}
 	.container{
-		height: 68rem;
+		height: 145vw;
 	}
 	.navbar{
 		display: none;
@@ -220,7 +217,6 @@ span{
 	}
 
 	.conseil .left {
-		margin-left: 15%;
 	}
 
 
@@ -237,9 +233,7 @@ span{
 
 }
 @media screen and (max-width: 780px) {
-	body{
-		background: red
-	}
+
 	.content .action .btn{
 		display: none;
 	}
@@ -312,7 +306,6 @@ span{
 	}
 	.content{
 		margin: 0 2rem;
-		background: red
 	}
 
 
@@ -324,11 +317,10 @@ span{
 	}
 
 	.content .action .translates{
-		margin-left: 9rem
+		margin-left: 0rem;
 	}
 	.conseil .left {
 		margin-left: 0;
-		background: yellow;
 		width: 100%;
 	}
 
@@ -338,6 +330,11 @@ span{
 	}
 	.conseil .left .text{
 		font-size: 1rem;
+	}
+
+
+	.menu-mobile{
+		margin-left: -4rem; 
 	}
 
 	.conseil .right{
@@ -359,7 +356,7 @@ span{
 		height: 160rem
 	}
 	.content .action .translates{
-		margin-left: 1rem
+		margin-right: -1rem
 	}
 }
 
